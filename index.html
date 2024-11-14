@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestor de Tareas</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="tituloPrincipal">Gestor Interactivo de Tareas</h1>
+        <p id="mensajeBienvenida">Bienvenido a nuestro gestor interactivo de tareas </p>
+    </header>
+
+    <h2>Formulario de Usuario</h2>
+    <input type="text" id="inputNombre" placeholder="Ingresa tu nombre" />
+    <button id="btnActualizarNombre">Actualizar Nombre</button>
+
+    <label for="colorUsuario">Elige el color de tu nombre:</label>
+    <select id="colorUsuario">
+        <option value="red">Rojo</option>
+        <option value="green">Verde</option>
+        <option value="blue">Azul</option>
+        <option value="yellow">Amarillo</option>
+    </select>
+
+    <h2>Gestor de Tareas</h2>
+    <ul id="listaTareas">
+        <li>Tarea 1</li> 
+        <li>Tarea 2</li>
+        <li>Tarea 3</li>
+    </ul>
+    <input type="text" id="inputTarea" placeholder="Nueva tarea" />
+    <button id="btnAgregarTarea">Agregar Tarea</button>
+
+    <h2>Información Interactiva</h2>
+    <div class="cuadroInfo">Pasa el ratón aquí para cambiar el color</div>
+    <div class="cuadroInfo">Haz doble clic para ocultarme</div>
+
+    <h2>Galería de Imágenes</h2>
+    <div id="galeria">
+        <img class="imagenGaleria" src="https://www.antalis.co.uk/mediashare/g4media/images/LOSQS_MI2_ORACAL_411_MAGENTA_FRONT_551G_00_27022023.jpg"  alt="coche" />
+        <img class="imagenGaleria" src="https://www.antalis.co.uk/mediashare/g4media/images/LOSQS_MI2_ORACAL_411_MAGENTA_FRONT_551G_00_27022023.jpg"  alt="coche" />
+        <img class="imagenGaleria" src="https://www.antalis.co.uk/mediashare/g4media/images/LOSQS_MI2_ORACAL_411_MAGENTA_FRONT_551G_00_27022023.jpg"  alt="coche" />
+    </div>
+    <button id="btnOcultarTareas">Ocultar/Mostrar Tareas</button>
+    <button id="btnAlternarTema">Alternar Tema Claro/Oscuro</button>
+</body>
+
+</html>
